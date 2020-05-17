@@ -1,261 +1,122 @@
-*{
-	margin:0px;
-	padding:0px;
+body{
+	margin: 0px;
 }
 
-ul, ol{
-	list-style-type: none;
-	vertical-align: top;
-}
-
-div#Layout{
-	width:900px;
-	margin:10px auto;
-	border:1px solid #cccccc;
-	height:860px;
-}
-
-div.LHeader{
-	float:left;
-	margin: 10px 10px;
-}
-
-div.LHeader > p.last{
-	margin-top:15px;
-}
-
-div.RHeader{
-	float:right;
-	margin:10px 10px;
-}
-
-div.RHeader > ul
-{
-	text-align: right;
-}
-
-div.RHeader > ul > li{
-	display:inline;
+#header{
 	
+	width: 100%;
+    height: 70px;
+    background: black;
 }
 
-div.RHeader > ul.last{
-	margin-top:15px;
+.container{
+	width:1170px;
+	margin: 0 auto;
 }
 
-div.RHeader > ul.last > li{
-	border-right: 1px solid #220CF2;
-	padding-left:5px;
-	padding-right:5px;
+.giohang {
+    float: right;
+    color: #ffffffc7;
+    margin-top: 10px;
+    text-align: center;
 }
 
-div.RHeader > ul.last > li > a{
-	text-decoration: none;
-}
-
-div.RHeader > ul.last > li > a:hover{
-	color:red;
-}
-
-/* div#Header:after{
-	clear:both;
-	content:".";
-	display:block;
-	visibility: hidden;
-	height: 0px;
-	line-height: 0px;
-} */
-
-div#Nav{
-	clear:both;
-	height: 40px;
-	background: url(../images/bg_gnav.gif) repeat-x;
-}
-
-/* div#Nav > ul > li{
-	float:left;
-	line-height: 40px;
-	width: 120px;
-	text-align: center;
-	border-right:1px solid #ffffff;
-} */
-
-/* div#Content{
-	clear:both;
-} */
-
-div#Nav > ul > li{
-	display:inline;
-	line-height: 40px;
-	text-align: center;
-	padding-left: 10px;
-	padding-right: 10px;
-	border-right:1px solid #ffffff;
-}
-
-div#Nav > ul > li > a{
-	text-decoration: none;
-	color:#ffffff;
-	font-weight: bold;
-}
-
-div#Nav > ul > li > a:hover{
-	color:#E0ED12;
-}
-
-div.LContent{
-	margin:10px 7px;
-	width: 620px;
-	float:left;
-}
-
-div.LContent > h2{
-	font-size: 120%;
-	border-bottom: 2px solid #cccccc;
-}
-
-div.newProduct{
-	margin-bottom:12px;
-}
-
-div.newProduct:after{
-	clear:both;
-	content:".";
-	display:block;
-	visibility: hidden;
-	height: 0px;
-	line-height: 0px;
-}
-
-div.newProduct > p{
-	margin-top:7px;
-	width: 250px;
-	float:left;
-}
-
-div.newProduct > div{
-	width: 320px;
-	float:left;
-	text-align: justify;
-	margin-top: 5px;
-	margin-left:10px;
-}
-
-div.newProduct > div > h3{
-	color:blue;
-}
-
-div.LContent > ul{
-	clear:both;
-	width: 580px;
-	background: #E5E1E1;
-	padding: 10px 0px;
-	text-align: center;
-}
-
-
-div.LContent > ul > li{
-	display:inline;
-	padding: 0px 3px;
-}
-
-div.LContent > h2.last{
-	margin-top:30px;
-}
-
-div.LContent > dl{
-	margin:15px 10px;
-}
-
-div.LContent > dl > dd{
-	border-bottom:1px dotted #090909;
-	margin-bottom:5px;
-	width: 570px;
-}
-
-div.LContent > dl > dd > a{
-	text-decoration: none;
-}
-
-div.LContent > p{
-	text-align: center;
-}
-
-div.LContent > p > img{
-	width: 450px;
-	height: 85px;
-}
-
-div.RContent{
-	margin:10px 7px;
-	width: 250px;
-	float:right;
-	/* border:1px solid #cccccc; */
-}
-
-div.RContent > h3{
-	border-bottom: 2px solid #cccccc;
-}
-
-div.RContent > h3.last{
-	margin-top:20px;
-}
-
-div.RContent > ul.first{
-	margin: 10px;
-}
-
-div.RContent > ul.first > li{
-	background: url(../images/ico_arrow.gif) no-repeat;
-	background-position:left center;
-	padding-left: 10px;
-	margin-bottom: 5px;
-}
-
-div.RContent > ul.last{
-	margin: 15px 0px;
-}
-
-div.RContent > ul.last > li{
+.giohang p{
 	margin-top:5px;
 }
 
-div#Footer{
-	clear:both;
-	border-top:1px solid #cccccc;
+.giohang img{
+	width:35px;
+	height:25px;
 }
 
-div.LFooter{
-  width:400px;
-  float:left;
-  margin:10px 10px;
+.giohang a:link, .giohang a:visited
+{
+   color: #ffffffc7;
+   text-decoration:none;
 }
 
-div.RFooter{
-  width:400px;
-  float:right;	
-  text-align: right;
-  margin:10px 10px;
+#logo{
+	text-align: center;
+    border-bottom: 1px solid #00000087;
 }
 
-div.RFooter > ul > li{
-	display:inline;
-	border-right:1px solid blue;
-	padding-left:5px;
-	padding-right:5px;
+#logo a:link, #logo a:visited
+{
+   text-decoration:none;
+   color:black;
 }
 
-div.RFooter > ul > li > a{
-	text-decoration: none;
+.Lnavbar{
+	width: 70%;
+    height: 70px;
+    float: left;
+    display: flex;
+    align-items: center;
 }
 
-div.RFooter > ul > li > a:hover{
-	color:red;
+.Lnavbar ul{
+	list-style-type: none;
 }
 
+.Lnavbar ul li{
+	float: left;
+    margin-right: 40px;
+    font-size: 20px;
+}
 
+.Lnavbar ul li a
+{
+    text-decoration: none;
+    color: black;
+}
 
+.Lnavbar ul li a:hover
+{
+	color: #8686f3e8;
+}
 
+.Rnavbar{
+	width: 30%;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
 
+#txtSearch{
+	border: 0px;
+    font-size: 20px;
+}
 
+#btnSearch{
+	background: url(../images/timkiem.gif) no-repeat;
+    background-size: 25px 20px;
+    width: 25px;
+    height: 20px;
+    border: none;
+    position: absolute;
+    top: 25px;
+    left: 320px;
+    margin-left: 5px; 
+}
 
+#slider img{
+	width: 100%;
+}
+
+#special{
+	margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 240px;
+}
+
+.sp_product{
+    float: left;
+    width: 320px;
+    height: 200px;
+    text-align: center;
+    margin-left: 60px;
+}
